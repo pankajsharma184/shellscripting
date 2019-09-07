@@ -34,7 +34,7 @@ cat ${FILE}
 
 # 0 - STDIN
 # 1 - STDOUT
-# 3 - SDERR
+# 2 - SDERR
 
 #Redirect STDIN to a program, using FD 0
 read LINE 0< ${FILE}
